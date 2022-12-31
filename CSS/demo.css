@@ -1,0 +1,54 @@
+.food-container
+{
+    display: flex;
+    
+}
+#food
+{
+    max-width: 1200px;
+    border: 2px solid red;
+   /* margin: auto; */
+   margin: 5rem 3rem;
+}
+.food-types img
+{
+    display: block;
+    max-width: 300px;
+    object-fit: cover;
+    margin: 3rem 2rem;
+     position: relative;
+}
+.food-types .img-content
+{
+
+    position: absolute;
+    color:chartreuse;
+    /* opacity: 0; */
+    top: 30%;
+ margin-left: 3rem;
+    z-index: 2;
+    text-align: center;
+}
+
+#food h2
+{
+    text-align: center;
+}
+
+.btn
+{
+    font-size: 20px;
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.8762);
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+.img-container
+{
+    border: 2px solid green;
+    margin: 1rem 1rem;
+    position: relative;
+    
+}
